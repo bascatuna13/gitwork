@@ -7,10 +7,17 @@ def seasons():
         if month in(12,1,2):
             print("Winter")
             break
-        if month in(6,7,8):
-            print("Summer")
-            break
+
         if month in(9,10,11):
             print("Autumn")
             break
+
+        if month in(3,4,5):
+            print("Spring")
+            break
+        add-autumn
+        if month in(6,7,8):
+            print("Summer")
+            break
 seasons()
+
